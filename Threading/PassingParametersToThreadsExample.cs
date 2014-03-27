@@ -28,6 +28,11 @@ namespace Threading
             WaitCallback callback = state => AnonymousMehtodSolution.Fetch((string) state);
             ThreadPool.QueueUserWorkItem(callback, url);
         }
+
+        public static void RunParameterizedThreadStart()
+        {
+
+        }
     }
 
     public class SimpleSolution

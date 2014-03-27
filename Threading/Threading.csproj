@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataRaces.cs" />
     <Compile Include="DeadLockExample.cs" />
     <Compile Include="MainEntry.cs" />
     <Compile Include="MonitorClassExample.cs" />
