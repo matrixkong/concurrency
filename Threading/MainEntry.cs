@@ -12,8 +12,12 @@ namespace Threading
         {
             //DeadLockExample.Run();
             //MonitorClassExample.Run();
-            PassingParametersToThreadsExample.RunThreadPoolSolution();   
-            Console.ReadKey();
+            //PassingParametersToThreadsExample.RunThreadPoolSolution();   
+            //PassingParametersToThreadsExample.RunParameterizedThreadStart();
+            //DataRacesExample.Run();
+            //ThreadPoolAndAsync.RunAutoResetEvent();
+            ThreadPoolAndAsync.RunWaitHandles();
+           // Console.ReadKey();
         }
     }
 }

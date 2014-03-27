@@ -43,11 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataRaces.cs" />
+    <Compile Include="DataRacesExample.cs" />
     <Compile Include="DeadLockExample.cs" />
     <Compile Include="MainEntry.cs" />
     <Compile Include="MonitorClassExample.cs" />
     <Compile Include="PassingParametersToThreadsExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThreadPoolAndAsync.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

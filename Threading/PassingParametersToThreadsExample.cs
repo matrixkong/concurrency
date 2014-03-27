@@ -31,7 +31,9 @@ namespace Threading
 
         public static void RunParameterizedThreadStart()
         {
-
+            const string url = "http://test.com.au";
+            var t = new Thread(new ParameterizedThreadStart(AnonymousMehtodSolution.Fetch));
+            t.Start(url);
         }
     }
 
@@ -53,6 +55,10 @@ namespace Threading
     public class AnonymousMehtodSolution
     {
         public static void Fetch(string url)
+        {
+            Console.WriteLine(url);
+        } 
+        public static void Fetch(object url)
         {
             Console.WriteLine(url);
         } 
